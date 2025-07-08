@@ -10,7 +10,7 @@ export default function Hero() {
   const [modalTitle, setModalTitle] = useState("")
 
   const handleGetStarted = () => {
-    setModalTitle("Get Started with DW Group")
+    setModalTitle("Get Started with DWGroup")
     setIsContactModalOpen(true)
   }
 
@@ -53,7 +53,7 @@ export default function Hero() {
             </div>
 
             <div className="space-y-4">
-              <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl text-gray-900">DW Group</h1>
+              <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl text-gray-900">DWGroup</h1>
               <h2 className="text-2xl md:text-3xl font-semibold bg-gradient-to-r from-[#572c7c] via-[#572c7c] to-[#a034fa] bg-clip-text text-transparent">
                 Joint Stock Company Limited
               </h2>

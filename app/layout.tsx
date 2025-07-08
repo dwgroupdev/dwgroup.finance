@@ -3,10 +3,10 @@ import type { Metadata } from "next"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "DW Group - Investment Solutions",
+  title: "DWGroup - Investment Solutions",
   description:
-    "DW Group Joint Stock Company Limited - Your trusted partner for comprehensive investment solutions and wealth management services in Hong Kong and beyond.",
-  generator: "DW Group",
+    "DWGroup Joint Stock Company Limited - Your trusted partner for comprehensive investment solutions and wealth management services in Hong Kong and beyond.",
+  generator: "DWGroup",
 }
 
 export default function RootLayout({

@@ -29,7 +29,7 @@ export default function Header() {
         <div className="container flex h-16 items-center justify-between px-4 md:px-6">
           <div className="flex items-center space-x-3">
             <Image src="/logo.png" alt="DWGroup Logo" width={40} height={40} className="h-10 w-10" />
-            <span className="font-bold text-xl text-gray-900">DW Group</span>
+            <span className="font-bold text-xl text-gray-900">DWGroup</span>
           </div>
 
           {/* Desktop Navigation */}
@@ -89,7 +89,7 @@ export default function Header() {
         </div>
       </header>
 
-      <ContactModal isOpen={isContactModalOpen} onClose={() => setIsContactModalOpen(false)} title="Contact DW Group" />
+      <ContactModal isOpen={isContactModalOpen} onClose={() => setIsContactModalOpen(false)} title="Contact DWGroup" />
     </>
   )
 }
